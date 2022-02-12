@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Netnet</title>
+</head>
+
+<body>
+    <template id="template-header">
+        <nav>
+            <ul class="menu">
+                <a href="#header"></a>
+                <a href="#container"></a>
+            </ul>
+            <table href="#list"></table>
+        </nav>
+    </template>
+
+    <nav class="nav">
+        <scroll-container class="main">
+            <scroll-page id="headerY">
+                <div id="header" class="header">
+                    <h2>Netnet</h2>
+
+                    <img class="imgHeader" src="img/pelicula1.jpg">
+                </div>
+            </scroll-page>
+
+            <scroll-page id="containerY">
+                <nav id="listY" class="listY">
+                    <b>
+                        <h5 id="category" class="category">Populares en Netnet</h5>
+                    </b>
+                    <div id="table-wrapper">
+                        <div id="table-scroll">
+                            <table>
+                                <tbody>
+                                    <template id="template-popular">
+                                        <tr>
+                                            <td>
+                                                <img id="img" class="img" src="" alt="movie">
+                                            </td>
+                                            <td>
+                                                <img id="img" class="img" src="" alt="movie">
+                                            </td>
+                                            <td>
+                                                <img id="img" class="img" src="" alt="movie">
+                                            </td>
+                                            <td>
+                                                <img id="img" class="img" src="" alt="movie">
+                                            </td>
+                                        </tr>
+                                    </template>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <b>
+                        <h5 id="category" class="category">Peliculas</h5>
+                    </b>
+                    <div id="table-wrapper">
+                        <div id="table-scroll">
+                            <table>
+                                <tbody>
+                                    <div id="container-movies">
+                                    <template id="template-movies">
+                                    <tr>
+                                        <td>
+                                            <img id="img" class="img" src="" alt="movie">
+                                        </td>
+                                        <td>
+                                            <img id="img" class="img" src="" alt="movie">
+                                        </td>
+                                        <td>
+                                            <img id="img" class="img" src="" alt="movie">
+                                        </td>
+                                        <td>
+                                            <img id="img" class="img" src="" alt="movie">
+                                        </td>
+                                    </tr>
+                                    </template>
+                                    </div>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <b>
+                        <h5 id="category" class="category">Series</h5>
+                    </b>
+                    <div id="table-wrapper">
+                        <div id="table-scroll">
+                            <table>
+                                <tbody>
+                                    <template>
+                                    <tr>
+                                        <td>
+                                            <img id="img" class="img" src="" alt="movie">
+                                        </td>
+                                        <td>
+                                            <img id="img" class="img" src="" alt="movie">
+                                        </td>
+                                        <td>
+                                            <img id="img" class="img" src="" alt="movie">
+                                        </td>
+                                        <td>
+                                            <img id="img" class="img" src="" alt="movie">
+                                        </td>
+                                    </tr>
+                                </template>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+
+<!-- ________________________________________ -->
+
+
+
+                    <!-- <div class="table-wrapper">
+                        <table class="table-scroll">
+                            <scroll-page id="listX">
+
+
+                            <td>
+                                <div id="program" class="program">
+                                    <img id="img" class="img" src="img/pelicula1.jpg" alt="movie">
+                                </div>
+                            </td>
+                            <td>
+                                <div id="program" class="program">
+                                    <img id="img" class="img" src="img/pelicula1.jpg" alt="movie">
+                                </div>
+                            </td>
+                            <td>
+                                <div id="program" class="program">
+                                    <img id="img" class="img" src="img/pelicula1.jpg" alt="movie">
+                                </div>
+                            </td>
+                            <td>
+                                <div id="program" class="program">
+                                    <img id="img" class="img" src="img/pelicula1.jpg" alt="movie">
+                                </div>
+                            </td>
+
+                            </scroll-page>
+                        </table>
+                    </div>
+
+
+                </nav>
+
+                <nav id="listX" class="listX">
+                    <scroll-page id="list">
+                        <div >
+                            <div id="program" class="program">
+                                <img id="img" class="img" src="img/pelicula1.jpg" alt="movie">
+                            </div>
+                        </div>
+
+                    </scroll-page>
+                </nav>
+
+                <nav id="listX" class="listX">
+                    <b>
+                        <h5 id="category" class="category">Peliculas</h5>
+                    </b>
+                    <div id="section" class="section">
+                        <scroll-page id="list">
+                            <div >
+                                <div id="program" class="program">
+                                    <img id="img" class="img" src="img/pelicula1.jpg" alt="movie">
+                                </div>
+                            </div>
+
+                        </scroll-page>
+                </nav>
+
+
+                <footer id="menu-footer" class="menu-footer">Menu</footer>
+            </scroll-page> -->
+        </scroll-container>
+    </nav>
+
+    <div id="footer" class="footer"></div>
+    </nav>
+
+    <button id="left"><</button>
+    <button id="rigth">></button>
+
+    <script type="module" src="scripts/script.js"></script>
+</body>
+
+</html>

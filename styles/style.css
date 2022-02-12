@@ -1,0 +1,68 @@
+body{
+    margin: 0%;
+    background-color: rgb(243, 65, 65);
+    padding: 0%;
+}
+.header{
+    background-color: grey;
+    height: 100%;
+}
+.imgHeader{
+    width: 100%;
+}
+.nav{
+    background-color: black;
+    margin: 2.5rem 0 0 30rem;
+    max-width: 20rem;
+    max-height: 35rem;   /*35 rem de altura, se deja en auto mientra se define el scroll*/
+    width: 20rem; 
+    height: 35rem;       /*35 rem de altura, se deja en auto mientra se define el scroll*/
+    color: white;
+    font-family: roboto;
+}
+.img{
+    width: 110px;
+    margin: 0.25rem;
+    height: 135px;
+    display: flex;
+    justify-content:space-between;
+}
+.program{
+    display:inline;
+    justify-content:space-between;
+
+}
+.section{
+    padding: 0%;
+    margin: 0px;
+    background-color: grey;
+    height: 140px;
+    width: auto;
+    display: flex;
+    align-items:center;
+}
+h5{
+    margin: 0%;
+}
+.main{/*scrollContainer*/
+    display: block;
+    width: 20rem;
+    height: 35rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+#table-scroll {
+    height:185px;
+    overflow:auto;  
+    margin-top:x;
+    overflow-x: scroll;
+}
+.menu-footer{
+    height: 60px;
+}
